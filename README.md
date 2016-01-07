@@ -13,9 +13,8 @@ To be able to compile haproxy staticaly a few dependencies must be met. So you c
 > make deps
 
 An then you can build the image
-This will download haproxy and openssl and compile them... If you run on a Pi1 take a city trip and comme back afterwards...
-The haproxy binary will be installed in /usr/local/bin.
-
+This will download monkey sources and compiles... If you run on a pi1 this might be the right time to go to the restaurant...
+The monkey binary will be installed in /usr/local/bin.
 > make
 
 Test the image
@@ -36,7 +35,7 @@ The erase the sources and builds
 
 **Customizing Haproxy**
 
-> docker run -d -p 80:80 -v \<config-dir\>:/etc/monkey -v \<data-dir\>:/var/www cblomart/rpi-haproxy
+> docker run -d -p 80:80 -v \<config-dir\>:/etc/monkey -v \<data-dir\>:/var/www cblomart/rpi-monkey
 
 where:
 
