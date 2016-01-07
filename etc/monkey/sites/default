@@ -1,0 +1,6 @@
+[HOST]
+    ServerName 127.0.0.1
+    DocumentRoot /var/www/
+
+[ERROR_PAGES]
+    404  404.html
