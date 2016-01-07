@@ -39,8 +39,10 @@ The erase the sources and builds
 > docker run -d -p 80:80 -v \<config-dir\>:/etc/monkey -v \<data-dir\>:/var/www cblomart/rpi-haproxy
 
 where:
+
   \<config-dir\> is an absolute path of a directory containing the monkey config folder.
-  \data-dir\> is an absolute path of a directory containing the web site.
+
+  \<data-dir\> is an absolute path of a directory containing the web site.
 
 # License
 
